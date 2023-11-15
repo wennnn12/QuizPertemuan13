@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
       price: 1.99,
       imageUrl: 'https://lzd-img-global.slatic.net/g/ff/kf/S4b109cfbbf454f0a9fb25eeeebc96bebL.jpg_720x720q80.jpg',
     ),
-    // Add more products as needed
+    
   ];
   
   final List<String> categories = [
@@ -178,9 +178,6 @@ Widget _buildStoreProfile() {
         trailing: IconButton(
           icon: Icon(Icons.add_shopping_cart),
           onPressed: () {
-            // Implement logic to add product to shopping cart
-            // You can use a state management solution like Provider or Riverpod
-            // or navigate to a new screen for cart management
           },
         ),
       ),
